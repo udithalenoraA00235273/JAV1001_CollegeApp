@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CambrianCollege">
-        <activity android:name=".User.UserScreen"></activity>
+        <activity android:name=".Common.UserScreen"></activity>
         <activity android:name=".Common.WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

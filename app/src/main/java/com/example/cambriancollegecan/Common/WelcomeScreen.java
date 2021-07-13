@@ -6,14 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.example.cambriancollegecan.R;
-import com.example.cambriancollegecan.User.UserScreen;
-
-import java.util.Timer;
-import java.util.TimerTask;
 
 public class WelcomeScreen extends AppCompatActivity {
 

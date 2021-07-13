@@ -6,5 +6,8 @@
 
     <string name="guest_user">Guest User</string>
     <string name="registered_user">Registered User</string>
-    <string name="help_center">Help Center</string>
+    <string name="help_center">Contact Us</string>
+    <string name="programs">Programs</string>
+    <string name="student_life">Student Life</string>
+    <string name="about">About Us</string>
 </resources>

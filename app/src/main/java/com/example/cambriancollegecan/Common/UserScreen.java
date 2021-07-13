@@ -1,4 +1,4 @@
-package com.example.cambriancollegecan.User;
+package com.example.cambriancollegecan.Common;
 
 import androidx.appcompat.app.AppCompatActivity;
 
