@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Cambrian College</string>
     <string name="logo_name">Welcome to <br> Cambrian College...!!! </br></string>
+    <string name="login_name">Enter login <br> Details </br></string>
     <string name="powered_by">Powered By Uditha Lenora</string>
 
     <string name="guest_user">Guest User</string>
