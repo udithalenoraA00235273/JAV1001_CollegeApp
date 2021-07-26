@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CambrianCollege">
-        <activity android:name=".Common.UserScreen"></activity>
+        <activity android:name=".Common.StudentLife"></activity>
+        <activity android:name=".Common.AboutUs" />
+        <activity android:name=".Common.Programs" />
+        <activity android:name=".Common.ContactUs" />
+        <activity android:name=".Common.OptionScreen" />
+        <activity android:name=".Common.UserScreen" />
         <activity android:name=".Common.WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

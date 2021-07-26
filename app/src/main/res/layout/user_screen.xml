@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Common.UserScreen"
+    android:orientation="vertical"
+    android:background="#0C0C0C">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/logo_name"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="#F6F0F0"
+        android:layout_marginTop="20dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2">
+
+    <GridLayout
+        android:layout_width="180dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_corners">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guest_user"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif-black"
+            android:padding="20dp"
+            android:textColor="#ED0A0A"/>
+
+        <ImageButton
+            android:id="@+id/guest_user"
+            android:layout_width="match_parent"
+            android:layout_height="309dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:scaleType="center"
+            android:src="@drawable/guest" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="180dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_corners">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="20dp"
+            android:text="@string/registered_user"
+            android:textColor="#ED0A0A"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/registered_user"
+            android:layout_width="match_parent"
+            android:layout_height="276dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:scaleType="center"
+            android:src="@drawable/registered" />
+    </GridLayout>
+    </GridLayout>
+</LinearLayout>
