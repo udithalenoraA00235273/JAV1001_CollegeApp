@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.CambrianCollege" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.CambrianCollege" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#78002e</item>
         <item name="colorPrimaryVariant">#ad1457</item>
