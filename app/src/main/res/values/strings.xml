@@ -13,5 +13,9 @@
     <string name="login">LOGIN</string>
 
 
-
+    <string name="general">General Studies</string>
+    <string name="health">Health Sciences</string>
+    <string name="skilled">Skilled Trades Training</string>
+    <string name="engineer">Engineering Technology</string>
+    <string name="arts">Creative Arts</string>
 </resources>
