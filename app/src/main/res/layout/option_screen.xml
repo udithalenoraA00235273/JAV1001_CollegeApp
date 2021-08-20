@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ad1457"
+    android:orientation="vertical"
+    tools:context=".Common.UserScreen">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/logo_name"
+        android:textAlignment="center"
+        android:textColor="#F6F0F0"
+        android:textSize="24sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="4">
+
+        <GridLayout
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_corners">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+                android:text="@string/programs"
+                android:textColor="#ED0A0A"
+                android:textSize="25sp"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/programs"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:scaleType="center"
+                android:src="@drawable/program" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_corners">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+                android:text="@string/student_life"
+                android:textColor="#ED0A0A"
+                android:textSize="25sp"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/student_life"
+                android:layout_width="match_parent"
+                android:layout_height="151dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:scaleType="center"
+                android:src="@drawable/student_life" />
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/round_corners">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+                android:text="@string/about"
+                android:textColor="#ED0A0A"
+                android:textSize="25sp"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:scaleType="centerCrop"
+                android:src="@drawable/about_us" />
+
+        </GridLayout>
+
+        <GridLayout
+            android:layout_width="180dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_corners">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:padding="20dp"
+                android:text="@string/help_center"
+                android:textColor="#ED0A0A"
+                android:textSize="25sp"
+                android:clickable="true"/>
+
+            <ImageButton
+                android:id="@+id/contact_us"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:scaleType="centerCrop"
+                android:src="@drawable/helpcenter" />
+
+        </GridLayout>
+    </GridLayout>
+
+
+</LinearLayout>
