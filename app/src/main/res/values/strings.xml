@@ -4,6 +4,7 @@
     <string name="login_name">Enter login <br> Details </br></string>
     <string name="powered_by">Powered By Uditha Lenora</string>
 
+    <!-- Options Screen -->
     <string name="guest_user">Guest User</string>
     <string name="registered_user">Registered User</string>
     <string name="help_center">Contact Us</string>
@@ -14,6 +15,7 @@
     <string name="signup">Sign Up</string>
     <string name="sign_up_topic">Welcome to User Creation</string>
 
+    <!-- Course category screen -->
 
     <string name="h1">To Browse our program</string>
     <string name="h2">Choose a field to study below</string>
@@ -28,6 +30,8 @@
     <string name="business">Business and Information</string>
     <string name="safety">Safety and Environmental</string>
 
+    <!-- Health sector courses -->
+
     <string name="he1">Advanced Care Paramedic – Graduate Certificate</string>
     <string name="he2">Bachelor of Science in Nursing</string>
     <string name="he3">Dental Assisting (Levels I and II)</string>
@@ -37,6 +41,8 @@
     <string name="he7">Health Analytics – Graduate Certificate</string>
     <string name="he8">Magnetic Resonance Imaging (MRI) – Graduate Certificate</string>
     <string name="apply">Apply Now</string>
+
+    <!-- Course content -->
 
     <string name="uc">Under Constructions Will be available soon...!!!</string>
     <string name="he_a_1">An Advanced Care Paramedic Graduate Certificate will add to your Primary Care Paramedic training to advance your career and increase your salary while making a difference in the health of your community. You will undertake advanced training delivered through a combination of classroom, simulation, clinical, and preceptorship environments. You will also complete preceptorship through a combination of ACP land and ACP flight exposure.
@@ -58,5 +64,18 @@ This program is the only Fitness and Health Promotion program in Ontario with an
 You’ll also gain a solid understanding of programming, statistics, and data management within the context of the emerging field of health analytics. These skills will be tested and applied through critical thinking and problem-solving exercises, field experiences, and industry speakers throughout the course so that you’ll be equipped to support evidence-based decision making in a variety of health-related organizations.</string>
     <string name="he_a_8">If you have the natural ability to put people at ease and can maintain a high level of accuracy, organization, and patience during stressful situations in a fast-paced environment, a career as a Magnetic Resonance Imaging Technologist could be for you. In just eight months, Cambrians program will provide you with the technical skills needed to excel in this field while exposing you to the day-to-day demands of this profession through a clinical placement in a hospital.Cambrians program is accredited by Accreditation Canada and prepares you for the Canadian Association of Medical Radiation Technologists entry to practice certification exam in Magnetic Resonance Imaging.</string>
 
+    <!-- Contact us Page -->
 
+    <string name="contact">Contact Cambrian</string>
+    <string name="localP">Local - (705) 566-8101</string>
+    <string name="tollFree">Toll free Ontario - 1-800-461-7145 </string>
+    <string name="email_inq">General Inquiries</string>
+    <string name="email_inq_ad">info@cambriancollege.ca</string>
+
+    <!-- About us Page -->
+
+    <string name="heading">Since 1967, Cambrian College has been the leading post-secondary institution in Northern Ontario.</string>
+    <string name="description1">Our College has a vibrant community of more than 11 000 learners, with over 4100 students in 80 full-time programs, and over 7000 students in almost 900 part-time courses and programs across three campus locations in northern Ontario: Sudbury, Espanola, and Little Current / Manitoulin Island.</string>
+    <string name="description2">Discover the range of services and facilities we offer to support students and prepare them for success in todays competitive work places.</string>
+    <string name="description3">Explore everything we have to offer and see Cambrian for yourself.</string>
 </resources>

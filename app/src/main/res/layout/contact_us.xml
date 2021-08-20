@@ -4,6 +4,122 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Common.ContactUs">
+    tools:context=".Common.ContactUs"
+    android:background="#ad1457">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/contact"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.105" />
+
+    <ImageView
+        android:id="@+id/phone"
+        android:layout_width="165dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/phone" />
+
+    <ImageView
+        android:id="@+id/email_c"
+        android:layout_width="165dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintVertical_bias="0.416"
+        app:srcCompat="@drawable/email" />
+
+    <ImageView
+        android:id="@+id/social_media"
+        android:layout_width="165dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/social_media" />
+
+    <ImageView
+        android:id="@+id/maps"
+        android:layout_width="165dp"
+        android:layout_height="148dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/email_c"
+        app:layout_constraintTop_toBottomOf="@+id/social_media"
+        app:layout_constraintVertical_bias="0.416"
+        app:srcCompat="@drawable/maps" />
+
+    <TextView
+        android:id="@+id/localP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/localP"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/email_c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintVertical_bias="0.347" />
+
+    <TextView
+        android:id="@+id/tollFree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tollFree"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/email_c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phone"
+        app:layout_constraintVertical_bias="0.695" />
+
+    <TextView
+        android:id="@+id/email_inq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email_inq"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/email_inq_ad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.124"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_c"
+        app:layout_constraintVertical_bias="0.512"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/email_inq_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text="@string/email_inq_ad"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
