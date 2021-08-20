@@ -12,6 +12,7 @@ import com.example.cambriancollegecan.R;
 
 public class SignUp extends AppCompatActivity {
 
+    /* Defining variables for edit texts & button */
     EditText fullName;
     EditText email_id;
     EditText password;
@@ -24,7 +25,7 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_up);
 
-
+        /* Defining hooks for each variable */
         createAccount = findViewById(R.id.create_account);
         fullName = findViewById(R.id.user_name);
         email_id = findViewById(R.id.email);
@@ -32,7 +33,7 @@ public class SignUp extends AppCompatActivity {
         confirmPassword = findViewById(R.id.confirm_password);
     }
 
-
+    /* Defining method to create the user acoount */
     public void CreateAccount(View view) {
         if (!ValidateFullName() | !ValidateEmailAddress() | !ValidatePassword()){
             return;

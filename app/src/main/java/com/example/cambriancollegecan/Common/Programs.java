@@ -11,6 +11,7 @@ import com.example.cambriancollegecan.R;
 
 public class Programs extends AppCompatActivity {
 
+    /* Defining variables for Image Buttons */
     public ImageButton healthScience;
     public ImageButton skilledTrade;
     public ImageButton engineering;
@@ -20,6 +21,7 @@ public class Programs extends AppCompatActivity {
     public ImageButton businessInformation;
     public ImageButton safetyEnvironmental;
 
+    /* Defining methods for image buttons to direct to specific page */
     public void HealthScience(){
         healthScience = (ImageButton)findViewById(R.id.health);
         healthScience.setOnClickListener(new View.OnClickListener() {

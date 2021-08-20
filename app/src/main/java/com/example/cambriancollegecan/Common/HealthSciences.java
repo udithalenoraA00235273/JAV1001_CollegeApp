@@ -19,6 +19,7 @@ import com.example.cambriancollegecan.R;
 
 public class HealthSciences extends AppCompatActivity {
 
+    /* Defining variables for text views to make them touchable */
     public TextView advanceCare;
     public TextView scienceNursing;
     public TextView dentalAssisting;
@@ -28,6 +29,7 @@ public class HealthSciences extends AppCompatActivity {
     public TextView magnetic;
     public TextView fitness;
 
+    /* Defining methods to direct the text views to specific course content page */
     public void AdvanceCare(){
         advanceCare = (TextView) findViewById(R.id.he_1);
         advanceCare.setOnClickListener(new View.OnClickListener() {

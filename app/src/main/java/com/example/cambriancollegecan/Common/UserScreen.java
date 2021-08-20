@@ -12,9 +12,11 @@ import com.example.cambriancollegecan.User.LoginScreen;
 
 public class UserScreen extends AppCompatActivity {
 
+    /* Defining variables for Image Buttons */
     public ImageButton guestUser;
     public ImageButton registeredUser;
 
+    /* Defining methods for image buttons to direct to specific page */
     public void GuestUser(){
         guestUser = (ImageButton)findViewById(R.id.guest_user);
         guestUser.setOnClickListener(new View.OnClickListener() {

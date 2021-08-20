@@ -14,8 +14,10 @@ import com.example.cambriancollegecan.R;
 
 public class LoginScreen extends AppCompatActivity {
 
+    /* Defining variable for the button */
     public Button userCreation;
 
+    /* Defining method to direct to sign up page */
     public void UserCreation(){
         userCreation = (Button) findViewById(R.id.sign_up);
         userCreation.setOnClickListener(new View.OnClickListener() {

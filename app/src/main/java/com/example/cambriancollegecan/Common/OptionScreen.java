@@ -12,11 +12,13 @@ import com.example.cambriancollegecan.R;
 
 public class OptionScreen extends AppCompatActivity {
 
+    /* Defining variables for Image Buttons */
     public ImageButton contactUs;
     public ImageButton aboutUs;
     public ImageButton programs;
     public ImageButton studentLife;
 
+    /* Defining methods for image buttons to direct to specific page */
     public void ContactUs(){
         contactUs = (ImageButton)findViewById(R.id.contact_us);
         contactUs.setOnClickListener(new View.OnClickListener() {

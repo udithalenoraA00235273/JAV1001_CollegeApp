@@ -11,6 +11,7 @@ import com.example.cambriancollegecan.R;
 
 public class WelcomeScreen extends AppCompatActivity {
 
+    /* Defining the timing to automatic redirect */
 public static int screenTime = 5000;
 
     @Override
