@@ -13,9 +13,15 @@
     <string name="login">LOGIN</string>
 
 
+    <string name="h1">To Browse our program</string>
+    <string name="h2">Choose a field to study below</string>
     <string name="general">General Studies</string>
     <string name="health">Health Sciences</string>
     <string name="skilled">Skilled Trades Training</string>
     <string name="engineer">Engineering Technology</string>
     <string name="arts">Creative Arts</string>
+    <string name="community">Community Services</string>
+    <string name="law">Law and Justice</string>
+    <string name="business">Business and Information</string>
+    <string name="safety">Safety and Environmental</string>
 </resources>

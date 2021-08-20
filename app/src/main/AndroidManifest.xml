@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CambrianCollege">
-        <activity android:name=".User.UserCreation"></activity>
+        <activity android:name=".Common.SafetyEnv"></activity>
+        <activity android:name=".Common.BusinessInfo" />
+        <activity android:name=".Common.LawJustice" />
+        <activity android:name=".Common.ComServices" />
+        <activity android:name=".Common.CreativeArts" />
+        <activity android:name=".Common.EngineeringTech" />
+        <activity android:name=".Common.SkilledTrade" />
+        <activity android:name=".Common.HealthSciences" />
+        <activity android:name=".User.UserCreation" />
         <activity android:name=".User.LoginScreen" />
         <activity android:name=".Common.StudentLife" />
         <activity android:name=".Common.AboutUs" />
