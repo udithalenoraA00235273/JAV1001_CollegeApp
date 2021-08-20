@@ -7,7 +7,7 @@
     tools:context=".Common.ContactUs"
     android:background="#ad1457">
 
-
+    <!-- Text view to define the header of the page -->
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
@@ -22,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.105" />
 
+    <!-- Image views to place images accordingly -->
     <ImageView
         android:id="@+id/phone"
         android:layout_width="165dp"

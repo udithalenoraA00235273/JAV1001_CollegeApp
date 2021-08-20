@@ -13,8 +13,10 @@ import com.example.cambriancollegecan.User.SignUp;
 
 public class HeAdvance extends AppCompatActivity {
 
+    /* Defining variable for the button */
     public Button applyNow;
 
+    /* Defining the method of clicking apply now button */
     public void ApplyNow(){
         applyNow = (Button) findViewById(R.id.apply_now);
         applyNow.setOnClickListener(new View.OnClickListener() {

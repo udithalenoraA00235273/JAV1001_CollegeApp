@@ -7,11 +7,12 @@
     android:background="#ad1457"
     tools:context=".Common.Programs">
 
+    <!-- Grid layout to define the structure of the page -->
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="2"
-        android:rowCount="4">
+        android:rowCount="8">
 
         <GridLayout
             android:layout_width="180dp"

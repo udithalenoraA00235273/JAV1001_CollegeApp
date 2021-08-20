@@ -8,6 +8,7 @@
     tools:context=".Common.HealthSciences"
     android:background="#ad1457">
 
+    <!-- Text view to define the header of the page -->
     <TextView
         android:id="@+id/topic"
         android:layout_width="match_parent"
@@ -21,6 +22,7 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="16dp" />
 
+    <!-- Touchable Text views to define the courses -->
     <TextView
         android:id="@+id/he_1"
         android:layout_width="match_parent"

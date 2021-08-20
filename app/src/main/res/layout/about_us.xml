@@ -7,7 +7,7 @@
     tools:context=".Common.AboutUs"
     android:background="#ad1457">
 
-
+    <!-- Text views to place the text contents in the page -->
     <TextView
         android:id="@+id/heading"
         android:layout_width="390dp"

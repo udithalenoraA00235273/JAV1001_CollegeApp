@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="#ad1457">
 
-
+    <!-- Text view to display the heading of the page -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,6 +20,7 @@
         android:textColor="#F6F0F0"
         android:layout_marginTop="20dp"/>
 
+    <!-- Grid layout to divide for two columns -->
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

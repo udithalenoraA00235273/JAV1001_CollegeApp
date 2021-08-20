@@ -7,7 +7,7 @@
     android:background="#ad1457"
     tools:context=".Common.UserScreen">
 
-
+    <!-- Text view to define the header of the page -->
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
@@ -22,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
 
+    <!-- Image view to place the image on the page -->
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="264dp"
@@ -35,6 +36,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         tools:ignore="MissingConstraints" />
 
+    <!-- edit text to define the email and password fields -->
     <EditText
         android:id="@+id/email_address"
         android:layout_width="317dp"
@@ -63,6 +65,7 @@
         app:layout_constraintTop_toBottomOf="@+id/email_address"
         tools:ignore="MissingConstraints" />
 
+    <!-- Login button define -->
     <Button
         android:id="@+id/login_button"
         android:layout_width="214dp"
@@ -75,6 +78,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
+    <!-- Sign up button define -->
     <Button
         android:id="@+id/sign_up"
         android:layout_width="wrap_content"

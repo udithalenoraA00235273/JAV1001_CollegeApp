@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".User.SignUp"
-    android:background="#ad1457">
+    android:background="#ad1457"
+    tools:context=".User.SignUp">
 
+    <!-- Text view to define the heading of the page -->
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -21,6 +22,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Edit text for Name, email, password -->
     <EditText
         android:id="@+id/email"
         android:layout_width="300dp"
@@ -63,6 +65,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
+    <!-- Image view to place the picture -->
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="153dp"
@@ -74,18 +77,20 @@
         app:layout_constraintVertical_bias="0.204"
         app:srcCompat="@drawable/registered" />
 
+    <!-- Create account button define -->
     <Button
         android:id="@+id/create_account"
         android:layout_width="209dp"
         android:layout_height="53dp"
-        android:text="Create Account"
         android:backgroundTint="#c7cc00"
+        android:text="Create Account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirm_password"
         app:layout_constraintVertical_bias="0.145" />
+
 
     <EditText
         android:id="@+id/user_name"
