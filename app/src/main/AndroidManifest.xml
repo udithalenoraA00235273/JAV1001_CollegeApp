@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CambrianCollege">
-        <activity android:name=".Common.SafetyEnv"></activity>
+        <activity android:name=".Health.HeFitness"></activity>
+        <activity android:name=".Health.HeMagnetic" />
+        <activity android:name=".Health.HeHealthAnalytics" />
+        <activity android:name=".Health.HeMedicalSono" />
+        <activity android:name=".Health.HeDentalHygiene" />
+        <activity android:name=".Health.HeDentalAssisting" />
+        <activity android:name=".Health.HeScienceNursing" />
+        <activity android:name=".Health.HeAdvance" />
+        <activity android:name=".Common.SafetyEnv" />
         <activity android:name=".Common.BusinessInfo" />
         <activity android:name=".Common.LawJustice" />
         <activity android:name=".Common.ComServices" />

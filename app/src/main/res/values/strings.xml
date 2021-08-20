@@ -27,4 +27,13 @@
     <string name="safety">Safety and Environmental</string>
 
     <string name="he1">Advanced Care Paramedic – Graduate Certificate</string>
+    <string name="he2">Bachelor of Science in Nursing</string>
+    <string name="he3">Dental Assisting (Levels I and II)</string>
+    <string name="he4">Dental Hygiene</string>
+    <string name="he5">Diagnostic Medical Sonography – Ultrasound</string>
+    <string name="he6">Fitness and Health Promotion</string>
+    <string name="he7">Health Analytics – Graduate Certificate</string>
+    <string name="he8">Magnetic Resonance Imaging (MRI) – Graduate Certificate</string>
+
+
 </resources>
