@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.cambriancollegecan.R;
+import com.example.cambriancollegecan.User.LoginScreen;
 
 public class UserScreen extends AppCompatActivity {
 
@@ -29,7 +30,7 @@ public class UserScreen extends AppCompatActivity {
         registeredUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent register = new Intent(UserScreen.this,OptionScreen.class);
+                Intent register = new Intent(UserScreen.this, LoginScreen.class);
                 startActivity(register);
             }
         });

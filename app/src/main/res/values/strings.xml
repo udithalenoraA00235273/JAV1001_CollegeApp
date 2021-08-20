@@ -11,6 +11,8 @@
     <string name="student_life">Student Life</string>
     <string name="about">About Us</string>
     <string name="login">LOGIN</string>
+    <string name="signup">Sign Up</string>
+    <string name="sign_up_topic">Welcome to User Creation</string>
 
 
     <string name="h1">To Browse our program</string>
@@ -34,8 +36,27 @@
     <string name="he6">Fitness and Health Promotion</string>
     <string name="he7">Health Analytics – Graduate Certificate</string>
     <string name="he8">Magnetic Resonance Imaging (MRI) – Graduate Certificate</string>
+    <string name="apply">Apply Now</string>
 
     <string name="uc">Under Constructions Will be available soon...!!!</string>
+    <string name="he_a_1">An Advanced Care Paramedic Graduate Certificate will add to your Primary Care Paramedic training to advance your career and increase your salary while making a difference in the health of your community. You will undertake advanced training delivered through a combination of classroom, simulation, clinical, and preceptorship environments. You will also complete preceptorship through a combination of ACP land and ACP flight exposure.
+You can continue working as a Primary Care Paramedic during your studies.</string>
+    <string name="he_a_2">Want a career where you will be in demand, earn a good salary, make a difference in your community, and have access to national and international job opportunities? Earn your Bachelor of Science in Nursing degree through Cambrian, and you will have the skills, knowledge, and practical experience to take on nursing roles in hospitals, long-term care settings, community care centres, and other health organizations.
+The Laurentian University Four-Year Collaborative Nursing Program, in collaboration with Laurentian University, Northern College, St. Lawrence College, Sault College, and Cambrian College, combines courses in the humanities, sciences, and social sciences with preparation in the theory and practice of nursing.
+Clinical experiences in hospitals and community health care agencies during the program enable you to put into practice the knowledge and skills learned in classes. You will have the opportunity to work with physicians, dieticians, physiotherapists, and members of other health care disciplines.
+Nurses with a B.Sc.N. degree can pursue Masters and Doctoral studies to prepare for work as educators, clinical experts, and researchers.</string>
+    <string name="he_a_3">Get the skills to launch a career as a Dental Assistant in just one year. In Cambrians program, you wont just be learning, you will be doing – and lots of it! You will start by practicing your skills on mannequins and your classmates in the Colleges dental clinic. Once you have gained some practical experience, yow ill treat real patients in the clinic before completing a placement in a dental office.This combination of theory and practice will give you the required knowledge and practical experience through a multi-disciplinary approach working with dental hygienists, dentists, and other health care professionals in the clinical environment and in community placements. Clinics and some classroom experiences may include evening scheduling.</string>
+    <string name="he_a_4">If you are seeking a dental hygiene program in Ontario, look no further than Cambrian College. Our program prepares you to be an integral member of oral health care teams in private practices public health units, long term care homes, mobile dental practices, and industry.
+You will have tons of opportunities for hands-on practical learning on mannequins, your classmates, and patients from Sudbury in the colleges on-campus Dental Clinic. You will also be involved in health promotion initiatives that will look impressive on your resume.</string>
+    <string name="he_a_5">Cambrians accredited Diagnostic Medical Sonography Ultrasound program will prepare you for entry-level roles in hospitals, medical clinics, and private industry. You will enjoy wide-ranging job opportunities, a higher than average salary, and a career where you will be making a difference in the lives of patients.
+You will learn to safely use scanning equipment and imaging techniques to produce images of a body part or system, skills that can be required throughout the different departments of a clinical facility including the trauma unit, operating room, and intensive care area, as well as the diagnostic imaging department.</string>
+    <string name="he_a_6">Bring your passion for fitness, health, and wellness to individuals of all ages and backgrounds through our two-year Fitness and Health Promotion program.
+This program will prepare you for a career in the health and fitness industry through a hands-on approach to learning and will set you up to gain additional certifications in the field, such as your Canadian Society of Exercise Physiology Certified Personal Trainer (CSEP-CPT) designation and fitness certifications with the Ontario Fitness Council, Sport for Life, High Five, and the Coaching Association of Canada.
+Courses will focus on health promotion, individual and group exercise programming, nutrition, fitness assessment, and recreation management. The program is also structured to give you interprofessional opportunities to interact with Cambrian’s Occupational Therapy and Physiotherapy Assistant students, as well as Massage Therapy students.
+This program is the only Fitness and Health Promotion program in Ontario with an outdoor recreation course. Enjoy being active outdoors while exploring what northern Ontario has to offer through camping trips and more!</string>
+    <string name="he_a_7">Gain the skills to use population data to understand the health of your community and to proactively plan for future health care needs in the only college program of its kind in Ontario.
+You’ll also gain a solid understanding of programming, statistics, and data management within the context of the emerging field of health analytics. These skills will be tested and applied through critical thinking and problem-solving exercises, field experiences, and industry speakers throughout the course so that you’ll be equipped to support evidence-based decision making in a variety of health-related organizations.</string>
+    <string name="he_a_8">If you have the natural ability to put people at ease and can maintain a high level of accuracy, organization, and patience during stressful situations in a fast-paced environment, a career as a Magnetic Resonance Imaging Technologist could be for you. In just eight months, Cambrians program will provide you with the technical skills needed to excel in this field while exposing you to the day-to-day demands of this profession through a clinical placement in a hospital.Cambrians program is accredited by Accreditation Canada and prepares you for the Canadian Association of Medical Radiation Technologists entry to practice certification exam in Magnetic Resonance Imaging.</string>
 
 
 </resources>
