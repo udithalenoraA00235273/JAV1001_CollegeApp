@@ -1,23 +1,34 @@
 package com.example.cambriancollegecan.User;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.cambriancollegecan.R;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.FirebaseDatabase;
 
-public class SignUp extends AppCompatActivity {
+import java.util.regex.Pattern;
+
+public class SignUp extends AppCompatActivity implements View.OnClickListener {
 
     /* Defining variables for edit texts & button */
     EditText fullName;
     EditText email_id;
     EditText password;
-    EditText confirmPassword;
     Button createAccount;
+
+    private FirebaseAuth mAuth;
 
 
     @Override
@@ -25,88 +36,87 @@ public class SignUp extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_up);
 
+        mAuth = FirebaseAuth.getInstance();
+
         /* Defining hooks for each variable */
         createAccount = findViewById(R.id.create_account);
         fullName = findViewById(R.id.user_name);
         email_id = findViewById(R.id.email);
         password = findViewById(R.id.password);
-        confirmPassword = findViewById(R.id.confirm_password);
+        createAccount = findViewById(R.id.create_account);
+        createAccount.setOnClickListener(this);
     }
 
-    /* Defining method to create the user acoount */
-    public void CreateAccount(View view) {
-        if (!ValidateFullName() | !ValidateEmailAddress() | !ValidatePassword()){
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.create_account:
+                createUser();
+                break;
+
+        }
+    }
+
+    /* User registration form validation */
+    private void createUser() {
+        String full_Name = fullName.getText().toString().trim();
+        String email = email_id.getText().toString().trim();
+        String pw = password.getText().toString().trim();
+
+        if (full_Name.isEmpty()){
+            fullName.setError("Name cannot be blank");
+            fullName.requestFocus();
             return;
         }
-        Intent intent = new Intent(getApplicationContext(), LoginScreen.class);
-    }
 
-
-
-    /* Validation of registration form */
-
-    private boolean ValidateFullName() {
-        String val = fullName.getText().toString().trim();
-
-        if (val.isEmpty()) {
-            fullName.setError("Name cannot be blank");
-            return false;
-        } else {
-            fullName.setError(null);
-            return true;
+        if (email.isEmpty()){
+            email_id.setError("Email cannot be blank");
+            email_id.requestFocus();
+            return;
         }
-
-    }
-
-    private boolean ValidateEmailAddress() {
-        String val = email_id.getText().toString().trim();
-        String checkEmail = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
-
-        if (val.isEmpty()) {
-            email_id.setError("Email address cannot be blank");
-            return false;
-        } else if (val.matches(checkEmail)) {
-            email_id.setError("Invalid email address");
-            return false;
-        } else {
-            email_id.setError(null);
-            return true;
-        }
-
-    }
-
-    private boolean ValidatePassword() {
-        String val = password.getText().toString().trim();
-        String checkPassword = "^" +
-                                ".{8,}";
-        if (val.isEmpty()) {
+       /* if (Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            email_id.setError("Enter a valid email address");
+            email_id.requestFocus();
+            return;
+        } */
+        if (pw.isEmpty()){
             password.setError("Password cannot be blank");
-            return false;
-        }else if(val.matches(checkPassword)){
-            password.setError("Password at least contain 8 Characters");
-            return false;
+            password.requestFocus();
+            return;
         }
-        else {
-            password.setError(null);
-            return true;
+        if (pw.length() < 8){
+            password.setError("Minimum length should be 6 Characters");
+            password.requestFocus();
+            return;
         }
+
+        mAuth.createUserWithEmailAndPassword(email, pw)
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()){
+                            User user = new User (fullName, email, pw);
+
+                            FirebaseDatabase.getInstance().getReference("Users")
+                                .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
+                                .setValue(user).addOnCompleteListener(new OnCompleteListener<Void>() {
+                                @Override
+                                public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()){
+                                            Toast.makeText(SignUp.this, "User has been registered successfully!",Toast.LENGTH_LONG).show();
+                                        }else{
+                                            Toast.makeText(SignUp.this, "Failed to Register. Try Again", Toast.LENGTH_LONG).show();
+                                        }
+                                }
+                            });
+                        }else{
+                            Toast.makeText(SignUp.this, "Failed to Register. Try Again", Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+
+
 
     }
-
-   /* private boolean ValidateConfirmPassword() {
-        String val = confirmPassword.getText().toString().trim();
-        String checkConfirmPassword = matches.password;
-        if (val.isEmpty()) {
-            confirmPassword.setError("You have to confirm the password");
-            return false;
-        }else if(val.matches(checkPassword)){
-            password.setError("Password at least contain 8 Characters");
-            return false;
-        }
-        else {
-            password.setError(null);
-            return true;
-        }
-
-    }*/
 }

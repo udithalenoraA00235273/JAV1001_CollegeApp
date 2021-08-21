@@ -23,11 +23,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Edit text for Name, email, password -->
+
+    <!-- Image view to place the picture -->
     <EditText
         android:id="@+id/email"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_marginTop="228dp"
+        android:layout_marginTop="280dp"
         android:ems="10"
         android:hint="e-mail address"
         android:inputType="textEmailAddress"
@@ -41,7 +43,7 @@
         android:id="@+id/password"
         android:layout_width="295dp"
         android:layout_height="50dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
@@ -51,21 +53,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
 
-    <EditText
-        android:id="@+id/confirm_password"
-        android:layout_width="299dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="8dp"
-        android:ems="10"
-        android:hint="Confirm Password"
-        android:inputType="textPassword"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password" />
-
-    <!-- Image view to place the picture -->
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="153dp"
@@ -78,6 +65,8 @@
         app:srcCompat="@drawable/registered" />
 
     <!-- Create account button define -->
+
+
     <Button
         android:id="@+id/create_account"
         android:layout_width="209dp"
@@ -86,11 +75,9 @@
         android:text="Create Account"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/confirm_password"
-        app:layout_constraintVertical_bias="0.145" />
-
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.159" />
 
     <EditText
         android:id="@+id/user_name"

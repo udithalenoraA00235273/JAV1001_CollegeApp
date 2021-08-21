@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525777879584",
+    "project_id": "cambriancollege-bebe6",
+    "storage_bucket": "cambriancollege-bebe6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525777879584:android:9ca767d09925150ff9b245",
+        "android_client_info": {
+          "package_name": "com.example.cambriancollegecan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525777879584-42aj4ujk1krf6ctle0hjlbtfsjvu518m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4BpfUIw3TiRcIH43il4OeQ0d8jsVgmW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525777879584-42aj4ujk1krf6ctle0hjlbtfsjvu518m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
